@@ -30,19 +30,27 @@ This project demonstrates **clean architecture**, **dependency injection**, and 
 
 ---
 
-##  Getting Started
+##  Getting Started (Visual Studio)
 
 ### 1️⃣ Clone the repository
 
-git clone https://github.com/subinscariya2/PatientPortal.git
+- Clone the repository to your local machine:
 
-cd PatientPortal
+- git clone https://github.com/subinscariya2/PatientPortal.git
 
-### 2️⃣ Build the project
-dotnet build
+### 2️⃣ Open the project in Visual Studio
 
-### 3️⃣ Run the API
-dotnet run --project NHSPatientPortal
+- Launch Visual Studio 2022 (or later).
+
+- Go to File → Open → Project/Solution.
+
+- Navigate to the cloned folder and select the PatientPortal.sln file.
+
+### 3️⃣ Build & Run the project
+
+- In Visual Studio, select Build → Build Solution.
+
+-  Run the project
 
 ### Once the project starts running, it will automatically redirect to the Swagger UI, where the API endpoints can be tested.
 
