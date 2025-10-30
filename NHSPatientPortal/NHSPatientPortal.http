@@ -1,0 +1,6 @@
+@NHSPatientPortal_HostAddress = http://localhost:5065
+
+GET {{NHSPatientPortal_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
